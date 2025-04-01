@@ -12,12 +12,19 @@ body {
   height: 72px;
   background: darkmagenta;
   color: white;
+  display: flex;
+  align-items: center;
+  padding-left:16px;
+  font-size: 32px;
+  font-weight: 900;
 }
 
 .footer {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  text-align: center;
+  align-content: center;
 }
 
 .sidebar {
@@ -27,6 +34,22 @@ body {
   display:flex;
   flex-shrink: 0;
   
+}
+
+.sidebar ul{
+  list-style-type: none;
+  margin:0;
+  padding:16px;
+}
+
+.sidebar a{
+  text-decoration: none;
+  color: #eee;
+  font-size: 24px;
+}
+
+li{
+  padding:16px
 }
 
 .cards{
@@ -41,5 +64,5 @@ body {
   border-radius: 4px;
   width:250px;
   padding:20px;
-  margin:20px
+  margin:16px;
 }
